@@ -1568,4 +1568,18 @@ main {
     padding-top: 80px; /* Pushes content below fixed navbar */
   }
 }
+/* 🔧 Fix Navbar Overlap Issue for All Screens */
+header {
+  position: relative;
+  z-index: 1;
+}
+
+.nav-container {
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  padding-top: 0 !important; /* Remove unnecessary push down */
+}
 
