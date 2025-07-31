@@ -1440,3 +1440,107 @@ main {
   font-size: 0.95em;
   color: #d8f3dc;
 }
+@media (max-width: 768px) {
+
+  /* Navbar stacking */
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+    align-items: flex-start;
+  }
+
+  .nav-links li {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .logo {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .enquiry-btn {
+    position: static;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+
+  /* Hero Section */
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .slider-wrapper {
+    height: 70vh;
+  }
+
+  .slider-wrapper img {
+    height: 70vh;
+  }
+
+  .hero {
+    height: auto;
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .hero .container {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  /* Container padding */
+  .container {
+    width: 95%;
+    padding: 10px 0;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  section.container h2 {
+    font-size: 22px;
+  }
+
+  section.container p, section.container li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Quote responsiveness */
+  .quote {
+    padding: 20px 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* Investor links buttons wrap */
+  .investor-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
